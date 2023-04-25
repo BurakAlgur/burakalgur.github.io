@@ -221,7 +221,7 @@ const Skills = () => {
               <p className="smallScreen:text-md smallScreen:font-medium md:text-2xl font-bold lg:text-3xl text-white opacity-100 text-right">
                 <div className="w-20 h-20">
                   <CircularProgressbar
-                    value={16}
+                    value={40}
                     styles={buildStyles({
                       pathColor: "darkorchid",
                       trailColor: "white",

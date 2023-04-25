@@ -4,7 +4,7 @@ import { fadeIn } from "../variants";
 
 import pau from "../assets/pau.png";
 import harvard from "../assets/harvard.png";
-import udemy from "../assets/udemy.png";
+import btk from "../assets/btk.png";
 
 const Education = () => {
   return (
@@ -75,7 +75,7 @@ const Education = () => {
                 <img
                   className="group-hover:scale-125 transition-all duration-500 h-1/3"
                   src={harvard}
-                  alt="certificate-1"
+                  alt="certificate-2"
                 />
               </div>
 
@@ -104,20 +104,22 @@ const Education = () => {
               {/* img */}
               <div className="h-72 sm:h-96 md:h-96 lg:h-72 xl:h-80 flex items-center justify-center">
                 <img
-                  className="group-hover:scale-125 transition-all duration-500 h-1/4"
-                  src={udemy}
-                  alt="certificate-1"
+                  className="group-hover:scale-125 transition-all duration-500 h-2/5"
+                  src={btk}
+                  alt="certificate-3"
                 />
               </div>
 
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 ">
-                <span className="text-gradient">Certificate of Completion</span>
+                <span className="text-gradient">
+                  Certificate of Participation
+                </span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 ">
                 <span className="text-3xl text-white">
-                  Design Patterns in JavaScript
+                  Basic Network Technologies
                 </span>
               </div>
             </div>

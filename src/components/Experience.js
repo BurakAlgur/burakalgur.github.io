@@ -7,18 +7,26 @@ import Skills from "./Skills";
 const Experience = () => {
   const workExperience = [
     {
+      name: "Huawei - Frontend Developer",
+      description:
+        "Working on R&D projects mostly using React, TypeScript and Angular",
+      startDate: "2023/11",
+      finishDate: "present",
+      link: "https://www.linkedin.com/company/sammteknoloji/",
+    },
+    {
       name: "Samm Technology - Full Stack Software Engineer",
       description:
         "Creating web applications and writing microservices for ERP mostly using React, Node.js, Flask, MongoDB, MsSQL and Oracle Cloud Services",
       startDate: "2022/02",
-      finishDate: "present",
+      finishDate: "2023/10",
       link: "https://www.linkedin.com/company/sammteknoloji/",
     },
 
     {
       name: "DDTECH – Frontend Development Internship ",
       description:
-        "Creating user interfaces for dynamic web forms and web pages using Html, Css and Javascript ",
+        "Creating user interfaces for dynamic web forms and web pages using Html, Css, Javascript and React",
       startDate: "2021/08",
       finishDate: "2021/10",
       link: "https://www.linkedin.com/company/ddtechnology/",
@@ -63,11 +71,11 @@ const Experience = () => {
                 const { name, description, startDate, finishDate, link } = wExp;
                 return (
                   <div
-                    className="border-b border-white/20 h-[176px] mb-[38px] flex"
+                    className="border-b border-white/20 h-[126px] mb-[38px] flex"
                     key={index}
                   >
                     <div className="max-w-[476px]">
-                      <h4 className="text-[20px] tracking-wider font-primary font-semibold mb-6">
+                      <h4 className="text-[16px] tracking-wider font-primary font-semibold mb-6">
                         {name}
                       </h4>
                       <p className="font-secondary leading-tight">

@@ -10,7 +10,7 @@ const Header = () => {
             <br />
             <span class="fancy">Algur</span>
           </p>
-          <a href="https://www.canva.com/design/DAFH_8TYoJI/aMlLgSyRvBMti1L6SZxlRA/view?utm_content=DAFH_8TYoJI&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu">
+          <a href="https://europa.eu/europass/eportfolio/screen/share/75771cd8-1710-4fbb-8c60-9577529c407e?lang=tr">
             <button className="btn btn-sm">Check My CV</button>
           </a>
         </div>
